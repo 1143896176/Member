@@ -97,6 +97,15 @@
 		font-weight: bold;
 		list-style: none;
 		padding-bottom: 2%;
+		display: flex;
+		flex-flow: row;
+	}
+	.dynamic{
+		width: 100%;
+	}
+	.quiet{
+		min-width: 90px;
+		width: 30%;
 	}
 	span{
 		font-size: 12px;
