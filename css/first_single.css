@@ -8,7 +8,9 @@ body {
 	height: 100%;
 	width: 100%;
 }
-//横屏
+/**
+ * 横屏
+ */
 @media only screen and (min-width: 1000px) and (max-width: 1600px) and (orientation: landscape) {
 	.warp {
 		margin: 0 auto;
@@ -16,7 +18,9 @@ body {
 	}
 	
 }
-//竖屏
+/**
+ * 竖屏
+ */
 @media only screen and (min-width: 1000px) and (max-width: 1600px) and (orientation: portrait) {
 	.warp {
 		margin: 0 auto;
@@ -31,13 +35,7 @@ body {
 	}
 	
 }
-@media only screen and (min-width: 500px) and (max-width: 1000px) and (orientation: landscape){
-	.warp {
-		width: 60%;
-		height: 200%;
-	}
-	
-}
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
 	.warp {
 		margin: 0 auto;
