@@ -8,32 +8,35 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
+
 /**
  * 横屏
  */
+
 @media only screen and (min-width: 1000px) and (max-width: 1600px) and (orientation: landscape) {
 	.warp {
 		margin: 0 auto;
 		width: 50%;
 	}
-	
 }
+
+
 /**
  * 竖屏
  */
+
 @media only screen and (min-width: 1000px) and (max-width: 1600px) and (orientation: portrait) {
 	.warp {
 		margin: 0 auto;
 		width: 70%;
 	}
-	
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1000px) {
 	.warp {
 		width: 70%;
 	}
-	
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -107,4 +110,14 @@ body {
 	bottom: 0%;
 	left: 0%;
 	z-index: 1;
+}
+
+body {
+	moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
