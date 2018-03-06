@@ -91,13 +91,15 @@
 	li {
 		font-size: 15px;
 		color: black;
-		font-weight: bold;
+		
 		list-style: none;
 		padding-bottom: 2%;
 		display: flex;
 		flex-flow: row;
 	}
-	
+	li>.quiet{
+		font-weight: bold;
+	}
 	.dynamic {
 		width: 100%;
 	}
